@@ -7,22 +7,20 @@
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbar1"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:background="@color/white"
-        android:elevation="6dp"
+        android:background="@color/instacenterclord"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        tools:ignore="UnusedAttribute">
-
+        >
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
             android:orientation="horizontal"
-            tools:ignore="UselessLeaf">
+            >
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -30,8 +28,8 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
-                android:foreground="@drawable/camera"
-                android:contentDescription="@string/todo1" />
+                android:contentDescription="@string/todo1"
+                android:src="@drawable/camera"/>
 
             <TextView
                 android:id="@+id/textView6"
@@ -42,10 +40,11 @@
                 android:fontFamily="@font/bilbo_swash_caps"
                 android:gravity="center_vertical"
                 android:text="@string/instagram"
-                android:textColor="@color/textcolor"
+                android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                tools:ignore="InefficientWeight,TextSizeCheck" />
+                tools:ignore="InefficientWeight,TextSizeCheck"
+                />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -67,7 +66,8 @@
                 android:contentDescription="@string/todo"
                 android:tint="@color/textcolor"
                 app:srcCompat="@drawable/send"
-                tools:ignore="UseAppTint" />
+                tools:ignore="UseAppTint"
+                />
         </LinearLayout>
 
 
@@ -99,7 +99,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation"
-        android:layout_below="@+id/toolbar"
+        android:layout_below="@+id/toolbar1"
         android:layout_above="@+id/nav_view"
         tools:ignore="FragmentTagUsage" />
 

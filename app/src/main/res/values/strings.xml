@@ -5,7 +5,7 @@
     <string name="title_notifications">Search</string>
     <string name="title_dashboard">Add</string>
     <string name="heart">Like</string>
-    <string name="user">User</string>
+    <string name="user">Profile</string>
 
 
     <string name="todo">TODO</string>
@@ -15,4 +15,24 @@
 
     <string name="todo1">TODO</string>
     <string name="todo2">TODO</string>
+    <string name="abdullah1">Abdullah</string>
+    <string name="abdullah2">Abdullah</string>
+    <string name="abdullah3">Abdullah</string>
+    <string name="abdullah4">Abdullah</string>
+    <string name="abdullah5">Abdullah</string>
+    <string name="abdullah6">Abdullah</string>
+    <string name="sarmadali1234">sarmadali1234</string>
+    <string name="image111">image</string>
+    <string name="todoasdas121">TODOasdas</string>
+    <string name="todoasdasd2">TODOasdasd2</string>
+    <string name="todo2334sd">TODO2334sd</string>
+    <string name="todosdfhjg">TODOsdfhjg</string>
+    <string name="todosokao">TODOsokao</string>
+    <string name="sarmadali1234jk">sarmadali1234</string>
+    <string name="todokjihds">TODOkjihds</string>
+    <string name="todokiou79">TODOkiou79</string>
+    <string name="todoqweqw">TODOqweqw</string>
+    <string name="todoqwasd">TODOqwasd</string>
+    <string name="todo13asa">TODO13asa</string>
+    <string name="tododfdf12">TODOdfdf12</string>
 </resources>
