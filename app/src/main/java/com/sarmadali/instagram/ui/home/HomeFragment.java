@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.sarmadali.instagram.databinding.FragmentHomeBinding;
@@ -29,6 +30,7 @@ public class HomeFragment extends Fragment {
         return root;
 
     }
+
 
     @Override
     public void onDestroyView() {

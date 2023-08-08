@@ -35,4 +35,6 @@
     <string name="todoqwasd">TODOqwasd</string>
     <string name="todo13asa">TODO13asa</string>
     <string name="tododfdf12">TODOdfdf12</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

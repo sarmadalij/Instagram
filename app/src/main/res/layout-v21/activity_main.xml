@@ -14,32 +14,36 @@
         android:background="@color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-
         >
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="visible">
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/camera"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
-                android:foreground="@drawable/camera"
-                android:contentDescription="@string/todo1" />
+                android:contentDescription="@string/todo1"
+                android:src="@drawable/camera" />
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/bilbo_swash_caps"
                 android:gravity="center_vertical"
                 android:text="@string/instagram"
                 android:textColor="@color/textcolor"
-                android:textSize="25sp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 tools:ignore="InefficientWeight,TextSizeCheck" />
 
@@ -50,6 +54,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
                 android:contentDescription="@string/todo2"
+                android:padding="3dp"
                 app:srcCompat="@drawable/instatv" />
 
             <ImageView
@@ -61,6 +66,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:contentDescription="@string/todo"
+                android:padding="3dp"
                 android:tint="@color/textcolor"
                 app:srcCompat="@drawable/send"
                 tools:ignore="UseAppTint" />
@@ -85,7 +91,7 @@
         />
 
     <fragment
-        android:id="@+id/nav_host_fragment_activity_main"
+        android:id="@+id/main_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
